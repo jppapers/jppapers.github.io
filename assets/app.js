@@ -106,8 +106,15 @@ function initSubjectPage() {
 
   document.title = `${subject.name} | JP Papers`;
 
-  /* agrupar por período, do mais recente para o mais antigo */
-  const terms = [...new Set(subject.files.map((f) => f.term))].sort().reverse();
+  /* agrupar por período, do mais recente para o mais antigo.
+     Um período pode trazer o ano à frente ("G10 Term 1"); sem ele, assume-se G9. */
+  const termRank = (t) => {
+    const grade = /G(\d+)/.exec(t);
+    const term = /Term (\d+)/.exec(t);
+    return (grade ? +grade[1] : 9) * 10 + (term ? +term[1] : 0);
+  };
+  const terms = [...new Set(subject.files.map((f) => f.term))]
+    .sort((a, b) => termRank(b) - termRank(a));
 
   const blocks = terms.map((term) => {
     const rows = subject.files.filter((f) => f.term === term).map((f) => `
