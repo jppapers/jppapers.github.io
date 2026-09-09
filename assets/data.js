@@ -63,8 +63,9 @@ const SUBJECTS = [
     slug: "maths",
     name: "Maths",
     group: "maths",
-    blurb: "Cycle test reviews term by term, plus the end-of-year paper.",
+    blurb: "Grade 10 term 1 calculator revision, plus the Grade 9 cycle test reviews term by term and the end-of-year paper.",
     files: [
+      { name: "Maths G10 T1 Calculator", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1x7b7fjBLkq7qEmhxtOfJte6gJZgOhlmdpKVYy3FEGIo/preview" },
       { name: "Maths EOY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1mgb6igKkjW20O8VZj_oFoGdYgE3LTyPMZ7o6jhyqTio/preview" },
       { name: "Maths CT Term 3 Review", type: "Cycle test", term: "Term 3", url: "https://docs.google.com/document/d/1ugak55Gsqnx7p9KOW8KldGMRe-Rlo-4pnWyEWEVDoNY/preview" },
       { name: "Maths CT2 Term 2 Review", type: "Cycle test", term: "Term 2", url: "https://docs.google.com/document/d/1_naPT94n9f-hpQtc2oqinyLve-VsxqU_C6A7OYPZKrI/preview" },
