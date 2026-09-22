@@ -124,8 +124,9 @@ const SUBJECTS = [
     slug: "pe",
     name: "PE",
     group: "sciences",
-    blurb: "IGCSE PE theory revision for the term test and the end-of-year paper.",
+    blurb: "IGCSE PE theory revision: the Grade 10 term 1 test, plus the Grade 9 term test and the end-of-year paper.",
     files: [
+      { name: "IGCSE PE T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1KV3vTI2hCWzoq8cSWGzMFv5_ChcVXQrSV8nRwRY6E8s/preview" },
       { name: "IGCSE PE EoY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1Y_XfDqCrvr0ii2OH3OWiF9R7qr1E_1U0n9HZCdEr_G8/preview" },
       { name: "IGCSE PE T2 Test Revision", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1SesmAjTUTh6uoHsNrJ24jiXZLEnpshWMov9xxVvsbsk/preview" }
     ]
