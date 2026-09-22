@@ -37,8 +37,9 @@ const SUBJECTS = [
     slug: "chemistry",
     name: "Chemistry",
     group: "sciences",
-    blurb: "PSA practice and cycle test revision. Double award content sits in the same documents \u2014 check the tabs.",
+    blurb: "Grade 10 term 1 revision, plus Grade 9 PSA practice and cycle test revision. Double award content sits in the same documents \u2014 check the tabs.",
     files: [
+      { name: "Chemistry Grade 10 T1 Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ncslpeaw5XMQQR7nMvHGSCNYOZKXCsUA1lSMPIO-gV0/preview" },
       { name: "Chemistry Grade 9 EoY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1JYnk6ShiyqxMQxKRy__mjxDwQcGvmML9RONG6c9XhAQ/preview" },
       { name: "Chemistry PSA IGCSE Term 3 Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Lgugxuve4QkwhC-LMD4xaV070C7Jn2jWD3Mqig6MG9w/preview" },
       { name: "Chemistry Cycle Test IGCSE Term 2 Revision", type: "Cycle test", term: "Term 2", url: "https://docs.google.com/document/d/1FdMReFAUVX6v67Y3Ilo_E4IIJMonxu8TS4VWFGvmEdk/preview" },
@@ -135,8 +136,9 @@ const SUBJECTS = [
     slug: "english",
     name: "English",
     group: "languages",
-    blurb: "Cycle tests, the multiple choice paper and end-of-year revision.",
+    blurb: "Grade 10 term 1 test revision, plus the Grade 9 cycle tests, multiple choice paper and end-of-year revision.",
     files: [
+      { name: "English G10 T1 Test revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1Gb5c7ZrZ_UK2MFhV2ewUFZ5N6hJwVoteBVTgolMcngQ/preview" },
       { name: "English EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/141Jjwq460GIK4wwlXRVoSbbAZ_3IYNUZsrsC-bI9fz0/preview" },
       { name: "English MCQ T2 revision", type: "MCQ", term: "Term 2", url: "https://docs.google.com/document/d/1eEeY40V_EPc9Rmxpwk-GOh-LppTL7O2hKitNJesEJ3w/preview" },
       { name: "English CT T2 revision", type: "Cycle test", term: "Term 2", url: "https://docs.google.com/document/d/1OBha3Ry9v6_I90ruRF46z1bZSQ38mQX8wp42-FfFK6A/preview" },
