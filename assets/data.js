@@ -24,8 +24,9 @@ const SUBJECTS = [
     slug: "biology",
     name: "Biology",
     group: "sciences",
-    blurb: "Cycle tests, PSA practice and end-of-year revision for triple science Biology.",
+    blurb: "Grade 10 term 1 revision, plus Grade 9 cycle tests, PSA practice and end-of-year revision for triple science Biology.",
     files: [
+      { name: "Biology G10 T1 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1sgqab0hsMSpvRSx9Oz4PTk-ZHIR61fHKaIjxYx0xA_0/preview" },
       { name: "Biology EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/14l8zWOoHxZc6bArwHRg4r7ybvxcffmuLu39MDYSetiY/preview" },
       { name: "Biology PSA Term 3 IGCSE Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Y_kPdnFn_lQAK9jtM-MCP9Ni7cdoraiPfHT9aiU6E7A/preview" },
       { name: "Biology PSA T2 revision", type: "PSA", term: "Term 2", url: "https://docs.google.com/document/d/1P7BTz2qnzR3cEtk2-CJTcswZHqlLnB43fyhbLGWPclM/preview" },
@@ -51,8 +52,9 @@ const SUBJECTS = [
     slug: "physics",
     name: "Physics",
     group: "sciences",
-    blurb: "PSA practice, cycle tests and the full end-of-year review for Physics.",
+    blurb: "Grade 10 term 1 test revision, plus Grade 9 PSA practice, cycle tests and the full end-of-year review for Physics.",
     files: [
+      { name: "Physics G10 T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1G0Vpvadfr85YXjCtKnC_ip8EARipoo2cR1zXFSrEcOU/preview" },
       { name: "Physics G9 EOY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/15erLcYXh_zhsjQFArDZhVVkQ_oZYdczALPRgD8iv_4U/preview" },
       { name: "Physics PSA Term 3 Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1fQEtM01x-VRJ6sZjd39FVqFmqVNpLmD1I_JcIyxJERk/preview" },
       { name: "Physics CT Term 2 Revision", type: "Cycle test", term: "Term 2", url: "https://docs.google.com/document/d/1NV4iNKp58q3wYZU_KD9RptjKUMvjX57JETvAohr08pI/preview" },
@@ -149,8 +151,9 @@ const SUBJECTS = [
     slug: "portugues",
     name: "Portugu\u00eas",
     group: "languages",
-    blurb: "Revis\u00e3o de fim de ano, teste de texto descritivo e um exemplo de teste em aula.",
+    blurb: "Texto argumentativo do 10.\u00ba ano, revis\u00e3o de fim de ano, teste de texto descritivo e um exemplo de teste em aula.",
     files: [
+      { name: "Portugu\u00eas Texto Argumentativo Review", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/13FJgR24H7iYWZ04xuWJ_IAXlqsmMfgxd7dV8zM0ncbk/preview" },
       { name: "Portugu\u00eas EoY Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1RCctiQsUH0mHOHYys7cgNwgXB-14BvZxr3GWSy1RoEQ/preview" },
       { name: "Teste de Texto Descritivo T2 Revis\u00e3o", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1HlHj4665kHsEfqqvb5l-7bl7wxoM06zUKbvavEj_YPA/preview" },
       { name: "Exemplo de teste em aula: Hist\u00f3ria Comum + Quarto Anjo", type: "Practice", term: "Term 1", url: "https://docs.google.com/document/d/1xK4a8I9Q4YZbTFuY2NKeZD_7lTWJkzsS4XmKpxsndXE/preview" }
