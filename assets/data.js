@@ -27,7 +27,6 @@ const SUBJECTS = [
     blurb: "Grade 10 term 1 revision, plus Grade 9 cycle tests, PSA practice and end-of-year revision for triple science Biology.",
     files: [
       { name: "Biology G10 T1 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1sgqab0hsMSpvRSx9Oz4PTk-ZHIR61fHKaIjxYx0xA_0/preview" },
-      { name: "Biology G9 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1pdujzHZgWNV98xR1VNsOeC2o07HKC-U-fmXi8v2Kpm0/preview" },
       { name: "Biology EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/14l8zWOoHxZc6bArwHRg4r7ybvxcffmuLu39MDYSetiY/preview" },
       { name: "Biology PSA Term 3 IGCSE Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Y_kPdnFn_lQAK9jtM-MCP9Ni7cdoraiPfHT9aiU6E7A/preview" },
       { name: "Biology PSA T2 revision", type: "PSA", term: "Term 2", url: "https://docs.google.com/document/d/1P7BTz2qnzR3cEtk2-CJTcswZHqlLnB43fyhbLGWPclM/preview" },
