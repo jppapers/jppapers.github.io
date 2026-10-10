@@ -27,6 +27,7 @@ const SUBJECTS = [
     blurb: "Grade 10 term 1 revision, plus Grade 9 cycle tests, PSA practice and end-of-year revision for triple science Biology.",
     files: [
       { name: "Biology G10 T1 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1sgqab0hsMSpvRSx9Oz4PTk-ZHIR61fHKaIjxYx0xA_0/preview" },
+      { name: "Biology G9 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1pdujzHZgWNV98xR1VNsOeC2o07HKC-U-fmXi8v2Kpm0/preview" },
       { name: "Biology EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/14l8zWOoHxZc6bArwHRg4r7ybvxcffmuLu39MDYSetiY/preview" },
       { name: "Biology PSA Term 3 IGCSE Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Y_kPdnFn_lQAK9jtM-MCP9Ni7cdoraiPfHT9aiU6E7A/preview" },
       { name: "Biology PSA T2 revision", type: "PSA", term: "Term 2", url: "https://docs.google.com/document/d/1P7BTz2qnzR3cEtk2-CJTcswZHqlLnB43fyhbLGWPclM/preview" },
@@ -68,7 +69,7 @@ const SUBJECTS = [
     group: "maths",
     blurb: "Grade 10 term 1 calculator revision, plus the Grade 9 cycle test reviews term by term and the end-of-year paper.",
     files: [
-      { name: "Maths G10 T1 Calculator", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1x7b7fjBLkq7qEmhxtOfJte6gJZgOhlmdpKVYy3FEGIo/preview" },
+      { name: "Maths G10 T1 Calculator", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1k-SYlMGk8bSXN0GzJJ-SQ9QF9QiFYKRDEzpfbi7lVvE/preview" },
       { name: "Maths EOY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1mgb6igKkjW20O8VZj_oFoGdYgE3LTyPMZ7o6jhyqTio/preview" },
       { name: "Maths CT Term 3 Review", type: "Cycle test", term: "Term 3", url: "https://docs.google.com/document/d/1ugak55Gsqnx7p9KOW8KldGMRe-Rlo-4pnWyEWEVDoNY/preview" },
       { name: "Maths CT2 Term 2 Review", type: "Cycle test", term: "Term 2", url: "https://docs.google.com/document/d/1_naPT94n9f-hpQtc2oqinyLve-VsxqU_C6A7OYPZKrI/preview" },
@@ -81,8 +82,9 @@ const SUBJECTS = [
     slug: "computer-science",
     name: "Computer Science",
     group: "maths",
-    blurb: "Theory revision for the term test and the end-of-year paper.",
+    blurb: "Grade 10 term 1 revision, plus Grade 9 theory revision for the term test and the end-of-year paper.",
     files: [
+      { name: "Computer Science G10 T1 Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1BVudfizmL1UasBuSf5uGF-PbBRNQ7ric6CbclMSo7d4/preview" },
       { name: "Computer Science G9 EoY IGCSE Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1ohWYyc801-eUsfRvC6hv-y1Rw9Nk_Ibq1ZAdmqveZJ4/preview" },
       { name: "Computer Science Test Revision", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1qc8ZrTJK9oo-hqVeOlIA2ylDisgma7iKAjmZs7tR1o4/preview" }
     ]
@@ -91,8 +93,9 @@ const SUBJECTS = [
     slug: "geography",
     name: "Geography",
     group: "humanities",
-    blurb: "Skills papers, the rivers topic test and the end-of-year review.",
+    blurb: "Grade 10 term 1 multiple choice review, plus the Grade 9 skills papers, the rivers topic test and the end-of-year review.",
     files: [
+      { name: "Geography G10 MCQ T1 Review", type: "MCQ", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ZWqVGQ32xC9Q2JFyGKFqopH-5Uc0-Y-EHTWF_-CItsM/preview" },
       { name: "Geography EoY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1vFJ8GA3UBmCRskR7XNK8PjYvWeQYIMr1825VHEz58X4/preview" },
       { name: "Geography Skills Term 3 Revision", type: "Skills", term: "Term 3", url: "https://docs.google.com/document/d/1EaG8EH6Puw27MtKO5c7dM7KfFprJIZznthy007ZCp6g/preview" },
       { name: "Geography Skills Test T2 Revision", type: "Skills", term: "Term 2", url: "https://docs.google.com/document/d/1fyFUIB9OpYl9BecITsmFJJ6KmGTUZ-23EqI-O8xoLL4/preview" },
@@ -129,7 +132,7 @@ const SUBJECTS = [
     group: "sciences",
     blurb: "IGCSE PE theory revision: the Grade 10 term 1 test, plus the Grade 9 term test and the end-of-year paper.",
     files: [
-      { name: "IGCSE PE T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1KV3vTI2hCWzoq8cSWGzMFv5_ChcVXQrSV8nRwRY6E8s/preview" },
+      { name: "IGCSE PE G10 T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1KV3vTI2hCWzoq8cSWGzMFv5_ChcVXQrSV8nRwRY6E8s/preview" },
       { name: "IGCSE PE EoY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1Y_XfDqCrvr0ii2OH3OWiF9R7qr1E_1U0n9HZCdEr_G8/preview" },
       { name: "IGCSE PE T2 Test Revision", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1SesmAjTUTh6uoHsNrJ24jiXZLEnpshWMov9xxVvsbsk/preview" }
     ]
