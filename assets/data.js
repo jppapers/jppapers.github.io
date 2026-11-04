@@ -55,6 +55,7 @@ const SUBJECTS = [
     group: "sciences",
     blurb: "Trial exam papers, Grade 10 term 1 test revision, and Grade 9 PSA practice, cycle tests and the full end-of-year review for Physics.",
     files: [
+      { name: "G10 Physics Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1GsICwy6mXjUb3VH1HizmRWlB11GntyyM2BXMOSor_Og/preview" },
       { name: "G10 Physics Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1MElGt3m8OmntrQVCHo2uvY8N91T6LRG7Mjfm4sW0F6o/preview" },
       { name: "Physics G10 T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1G0Vpvadfr85YXjCtKnC_ip8EARipoo2cR1zXFSrEcOU/preview" },
       { name: "Physics G9 EOY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/15erLcYXh_zhsjQFArDZhVVkQ_oZYdczALPRgD8iv_4U/preview" },
