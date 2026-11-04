@@ -38,8 +38,9 @@ const SUBJECTS = [
     slug: "chemistry",
     name: "Chemistry",
     group: "sciences",
-    blurb: "Grade 10 term 1 revision, plus Grade 9 PSA practice and cycle test revision. Double award content sits in the same documents \u2014 check the tabs.",
+    blurb: "Trial exam papers, Grade 10 term 1 revision, and Grade 9 PSA practice and cycle test revision. Double award content sits in the same documents \u2014 check the tabs.",
     files: [
+      { name: "G10 Chemistry Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1V6ZVyApEzozTiu1oZf8NJm8D2nFT6KYW8PZE7c18Qtk/preview" },
       { name: "Chemistry Grade 10 T1 Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ncslpeaw5XMQQR7nMvHGSCNYOZKXCsUA1lSMPIO-gV0/preview" },
       { name: "Chemistry Grade 9 EoY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1JYnk6ShiyqxMQxKRy__mjxDwQcGvmML9RONG6c9XhAQ/preview" },
       { name: "Chemistry PSA IGCSE Term 3 Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Lgugxuve4QkwhC-LMD4xaV070C7Jn2jWD3Mqig6MG9w/preview" },
@@ -52,8 +53,9 @@ const SUBJECTS = [
     slug: "physics",
     name: "Physics",
     group: "sciences",
-    blurb: "Grade 10 term 1 test revision, plus Grade 9 PSA practice, cycle tests and the full end-of-year review for Physics.",
+    blurb: "Trial exam papers, Grade 10 term 1 test revision, and Grade 9 PSA practice, cycle tests and the full end-of-year review for Physics.",
     files: [
+      { name: "G10 Physics Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1MElGt3m8OmntrQVCHo2uvY8N91T6LRG7Mjfm4sW0F6o/preview" },
       { name: "Physics G10 T1 Test Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1G0Vpvadfr85YXjCtKnC_ip8EARipoo2cR1zXFSrEcOU/preview" },
       { name: "Physics G9 EOY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/15erLcYXh_zhsjQFArDZhVVkQ_oZYdczALPRgD8iv_4U/preview" },
       { name: "Physics PSA Term 3 Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1fQEtM01x-VRJ6sZjd39FVqFmqVNpLmD1I_JcIyxJERk/preview" },
@@ -68,7 +70,7 @@ const SUBJECTS = [
     group: "maths",
     blurb: "Trial exam papers, Grade 10 term 1 calculator revision, and the Grade 9 cycle test reviews and end-of-year paper.",
     files: [
-      { name: "G10 Maths Paper 2 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/1749lCKdPZdj5Nc1gP4vxCyEoIq3NPSbednTTjY1Fqq4/preview" },
+      { name: "G10 Maths Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1749lCKdPZdj5Nc1gP4vxCyEoIq3NPSbednTTjY1Fqq4/preview" },
       { name: "Maths G10 T1 Calculator", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1k-SYlMGk8bSXN0GzJJ-SQ9QF9QiFYKRDEzpfbi7lVvE/preview" },
       { name: "Maths EOY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1mgb6igKkjW20O8VZj_oFoGdYgE3LTyPMZ7o6jhyqTio/preview" },
       { name: "Maths CT Term 3 Review", type: "Cycle test", term: "Term 3", url: "https://docs.google.com/document/d/1ugak55Gsqnx7p9KOW8KldGMRe-Rlo-4pnWyEWEVDoNY/preview" },
@@ -84,8 +86,8 @@ const SUBJECTS = [
     group: "maths",
     blurb: "Trial exam papers, Grade 10 term 1 revision, and Grade 9 theory revision for the term test and the end-of-year paper.",
     files: [
-      { name: "G10 Computer Science Paper 1 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/1RdMPYo3pbpwvgGdCL8l0D7WJ51jfuG6g8qH_Ge5FoGA/preview" },
-      { name: "G10 Computer Science Paper 2 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/1NCotP3bTnlqXnjj1LsCOqsat-GGQerWwBtq51wezjZg/preview" },
+      { name: "G10 Computer Science Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1RdMPYo3pbpwvgGdCL8l0D7WJ51jfuG6g8qH_Ge5FoGA/preview" },
+      { name: "G10 Computer Science Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1NCotP3bTnlqXnjj1LsCOqsat-GGQerWwBtq51wezjZg/preview" },
       { name: "Computer Science G10 T1 Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1BVudfizmL1UasBuSf5uGF-PbBRNQ7ric6CbclMSo7d4/preview" },
       { name: "Computer Science G9 EoY IGCSE Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1ohWYyc801-eUsfRvC6hv-y1Rw9Nk_Ibq1ZAdmqveZJ4/preview" },
       { name: "Computer Science Test Revision", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1qc8ZrTJK9oo-hqVeOlIA2ylDisgma7iKAjmZs7tR1o4/preview" }
@@ -97,8 +99,8 @@ const SUBJECTS = [
     group: "humanities",
     blurb: "Trial exam papers, Grade 10 term 1 multiple choice review, and the Grade 9 skills papers, rivers topic test and end-of-year review.",
     files: [
-      { name: "G10 Geography Paper 1 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/10K_VNuJASP93UJrwBkgKz4NPH073bk75hMGo2GBnFLg/preview" },
-      { name: "G10 Geography Paper 2 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/1SmPrTqPXRCmCNaMaIxbYzpJU7gPEfnvj2KNH2JgJ-MI/preview" },
+      { name: "G10 Geography Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/10K_VNuJASP93UJrwBkgKz4NPH073bk75hMGo2GBnFLg/preview" },
+      { name: "G10 Geography Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1SmPrTqPXRCmCNaMaIxbYzpJU7gPEfnvj2KNH2JgJ-MI/preview" },
       { name: "Geography G10 MCQ T1 Review", type: "MCQ", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ZWqVGQ32xC9Q2JFyGKFqopH-5Uc0-Y-EHTWF_-CItsM/preview" },
       { name: "Geography EoY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1vFJ8GA3UBmCRskR7XNK8PjYvWeQYIMr1825VHEz58X4/preview" },
       { name: "Geography Skills Term 3 Revision", type: "Skills", term: "Term 3", url: "https://docs.google.com/document/d/1EaG8EH6Puw27MtKO5c7dM7KfFprJIZznthy007ZCp6g/preview" },
@@ -147,7 +149,7 @@ const SUBJECTS = [
     group: "languages",
     blurb: "Trial exam papers, Grade 10 term 1 test revision, and the Grade 9 cycle tests, multiple choice paper and end-of-year revision.",
     files: [
-      { name: "G10 English Language Paper 1 Trial Exam", type: "Practice", term: "Trial Exams", url: "https://docs.google.com/document/d/1CEOaSsMHqnlB54Egbd4ER4lQN3901pGAUPJdoVc4pwk/preview" },
+      { name: "G10 English Language Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1CEOaSsMHqnlB54Egbd4ER4lQN3901pGAUPJdoVc4pwk/preview" },
       { name: "English G10 T1 Test revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1Gb5c7ZrZ_UK2MFhV2ewUFZ5N6hJwVoteBVTgolMcngQ/preview" },
       { name: "English EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/141Jjwq460GIK4wwlXRVoSbbAZ_3IYNUZsrsC-bI9fz0/preview" },
       { name: "English MCQ T2 revision", type: "MCQ", term: "Term 2", url: "https://docs.google.com/document/d/1eEeY40V_EPc9Rmxpwk-GOh-LppTL7O2hKitNJesEJ3w/preview" },
