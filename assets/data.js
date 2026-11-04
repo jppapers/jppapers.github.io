@@ -72,6 +72,7 @@ const SUBJECTS = [
     files: [
       { name: "G10 Maths Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1749lCKdPZdj5Nc1gP4vxCyEoIq3NPSbednTTjY1Fqq4/preview" },
       { name: "G10 Maths Paper 4 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1_cwi3v1NUXrmKY2OIXToyPK0v8M3CdIdMndYFshkkzk/preview" },
+      { name: "G10 Maths Paper 6 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1zhxh_QjgHpNF5-3uIeVHxcnioqI6P76EkrKvwlj5LUo/preview" },
       { name: "Maths G10 T1 Calculator", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1k-SYlMGk8bSXN0GzJJ-SQ9QF9QiFYKRDEzpfbi7lVvE/preview" },
       { name: "Maths EOY G9 Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1mgb6igKkjW20O8VZj_oFoGdYgE3LTyPMZ7o6jhyqTio/preview" },
       { name: "Maths CT Term 3 Review", type: "Cycle test", term: "Term 3", url: "https://docs.google.com/document/d/1ugak55Gsqnx7p9KOW8KldGMRe-Rlo-4pnWyEWEVDoNY/preview" },
