@@ -24,8 +24,10 @@ const SUBJECTS = [
     slug: "biology",
     name: "Biology",
     group: "sciences",
-    blurb: "Grade 10 term 1 revision, plus Grade 9 cycle tests, PSA practice and end-of-year revision for triple science Biology.",
+    blurb: "Trial exam papers, Grade 10 term 1 revision, plus Grade 9 cycle tests, PSA practice and end-of-year revision for triple science Biology.",
     files: [
+      { name: "G10 Biology Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ARRS4XJSsWyLAtDqXTfbN1Jt_qJYtAnugTnghDeJaTc/preview" },
+      { name: "G10 Biology Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1eX1yTV0FlsrXW8CO68mBoDXpVXzVsGTgcv0xLQ6fru0/preview" },
       { name: "Biology G10 T1 revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1sgqab0hsMSpvRSx9Oz4PTk-ZHIR61fHKaIjxYx0xA_0/preview" },
       { name: "Biology EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/14l8zWOoHxZc6bArwHRg4r7ybvxcffmuLu39MDYSetiY/preview" },
       { name: "Biology PSA Term 3 IGCSE Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Y_kPdnFn_lQAK9jtM-MCP9Ni7cdoraiPfHT9aiU6E7A/preview" },
@@ -41,6 +43,7 @@ const SUBJECTS = [
     blurb: "Trial exam papers, Grade 10 term 1 revision, and Grade 9 PSA practice and cycle test revision. Double award content sits in the same documents \u2014 check the tabs.",
     files: [
       { name: "G10 Chemistry Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1V6ZVyApEzozTiu1oZf8NJm8D2nFT6KYW8PZE7c18Qtk/preview" },
+      { name: "G10 Chemistry Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1H9G7BiGqSfIPB41iPrvCuAYYjNkNYtwP0lVWBOVsBv4/preview" },
       { name: "Chemistry Grade 10 T1 Revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1ncslpeaw5XMQQR7nMvHGSCNYOZKXCsUA1lSMPIO-gV0/preview" },
       { name: "Chemistry Grade 9 EoY Revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1JYnk6ShiyqxMQxKRy__mjxDwQcGvmML9RONG6c9XhAQ/preview" },
       { name: "Chemistry PSA IGCSE Term 3 Revision", type: "PSA", term: "Term 3", url: "https://docs.google.com/document/d/1Lgugxuve4QkwhC-LMD4xaV070C7Jn2jWD3Mqig6MG9w/preview" },
