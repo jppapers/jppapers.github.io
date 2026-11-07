@@ -156,6 +156,7 @@ const SUBJECTS = [
     blurb: "Trial exam papers, Grade 10 term 1 test revision, and the Grade 9 cycle tests, multiple choice paper and end-of-year revision.",
     files: [
       { name: "G10 English Language Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1CEOaSsMHqnlB54Egbd4ER4lQN3901pGAUPJdoVc4pwk/preview" },
+      { name: "G10 English Literature Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1btiSwm3qKAOcyQp9hcqGIdNRZpSCaPu-teAUtxypBC0/preview" },
       { name: "English G10 T1 Test revision", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/1Gb5c7ZrZ_UK2MFhV2ewUFZ5N6hJwVoteBVTgolMcngQ/preview" },
       { name: "English EoY G9 revision", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/141Jjwq460GIK4wwlXRVoSbbAZ_3IYNUZsrsC-bI9fz0/preview" },
       { name: "English MCQ T2 revision", type: "MCQ", term: "Term 2", url: "https://docs.google.com/document/d/1eEeY40V_EPc9Rmxpwk-GOh-LppTL7O2hKitNJesEJ3w/preview" },
@@ -167,8 +168,10 @@ const SUBJECTS = [
     slug: "portugues",
     name: "Portugu\u00eas",
     group: "languages",
-    blurb: "Texto argumentativo do 10.\u00ba ano, revis\u00e3o de fim de ano, teste de texto descritivo e um exemplo de teste em aula.",
+    blurb: "Provas de treino, texto argumentativo do 10.\u00ba ano, revis\u00e3o de fim de ano, teste de texto descritivo e um exemplo de teste em aula.",
     files: [
+      { name: "G10 Portuguese Paper 1 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1zEozBfvE_1CoH0A4lJHGEo43aZGCqFdGCFKuf4N7usg/preview" },
+      { name: "G10 Portuguese Paper 2 Trial Exam", type: "Trial exams", term: "G10 Term 1", url: "https://docs.google.com/document/d/1P6YtbfoiRu2ik4QcH6bI73PZwqmd7NcxhyynqEr3m10/preview" },
       { name: "Portugu\u00eas Texto Argumentativo Review", type: "Practice", term: "G10 Term 1", url: "https://docs.google.com/document/d/13FJgR24H7iYWZ04xuWJ_IAXlqsmMfgxd7dV8zM0ncbk/preview" },
       { name: "Portugu\u00eas EoY Review", type: "EoY", term: "Term 3", url: "https://docs.google.com/document/d/1RCctiQsUH0mHOHYys7cgNwgXB-14BvZxr3GWSy1RoEQ/preview" },
       { name: "Teste de Texto Descritivo T2 Revis\u00e3o", type: "Practice", term: "Term 2", url: "https://docs.google.com/document/d/1HlHj4665kHsEfqqvb5l-7bl7wxoM06zUKbvavEj_YPA/preview" },
