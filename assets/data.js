@@ -184,8 +184,8 @@ const SUBJECTS = [
 const UPDATES = [
   {
     date: "2026-08-21",
-    title: "Nineteen mock papers are live",
-    body: "Full IGCSE mock papers for the 2027 session — Biology, Chemistry, Physics, Maths, English Language, English Literature, Geography and Computer Science. Each one has a timer and a sealed mark scheme. See the Mock papers page."
+    title: "Nineteen predicted IGCSE exams are live",
+    body: "Full predicted IGCSE exams for the 2027 session — Biology, Chemistry, Physics, Maths, English Language, English Literature, Geography and Computer Science. Each one has a timer and a sealed mark scheme. See the Predicted IGCSE Exams page."
   },
   {
     date: "2026-08-15",
